@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>list_item</class>
+ <widget class="QWidget" name="list_item">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>139</width>
+    <height>41</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Linux Libertine Display G</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>139</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Linux Libertine Display G&quot;;
+border: 2px solid;
+border-radius: 10px;
+border-color: rgb(230, 226, 231);
+background-color: qradialgradient(spread:pad, cx:0.813318, cy:0.812, radius:1.045, fx:1, fy:1, stop:0 rgba(162, 155, 162, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: qlineargradient(spread:pad, x1:0.154364, y1:0.158, x2:0.920909, y2:0.909, stop:0 rgba(255, 255, 255, 164), stop:0.323864 rgba(216, 218, 219, 162), stop:0.517045 rgba(168, 173, 174, 165), stop:0.943182 rgba(39, 50, 54, 167));
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

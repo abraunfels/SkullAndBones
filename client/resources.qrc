@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/backicon"/>
+    <qresource prefix="/bakcicons"/>
+    <qresource prefix="/">
+        <file>images/auth.png</file>
+        <file>images/back_enter - копия.png</file>
+        <file>images/back_enter.png</file>
+        <file>images/buttom.png</file>
+        <file>images/enter.png</file>
+        <file>images/error.png</file>
+        <file>images/mask.ico</file>
+        <file>images/add.png</file>
+        <file>images/add2.png</file>
+        <file>images/newuser.png</file>
+        <file>images/fon.png</file>
+        <file>images/fon_2.png</file>
+        <file>images/white.png</file>
+        <file>images/send_2.PNG</file>
+        <file>images/mask.png</file>
+        <file>images/mask_2.png</file>
+        <file>images/file.png</file>
+        <file>images/file_2.png</file>
+        <file>images/add_user.png</file>
+        <file>images/exit.png</file>
+        <file>images/find.png</file>
+        <file>images/users.png</file>
+        <file>images/offline.png</file>
+        <file>images/online.png</file>
+        <file>images/friends.png</file>
+        <file>images/settings.png</file>
+        <file>images/delete.png</file>
+        <file>images/out.png</file>
+        <file>images/send.png</file>
+    </qresource>
+</RCC>

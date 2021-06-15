@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Letters</class>
+ <widget class="QWidget" name="Letters">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>612</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Linux Libertine Display G</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Linux Libertine Display G&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>10</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/add_user.png</normaloff>:/images/add_user.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>10</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/users.png</normaloff>:/images/users.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>10</y>
+     <width>31</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/exit.png</normaloff>:/images/exit.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>20</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>10</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/delete.png</normaloff>:/images/delete.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>17</width>
+     <height>18</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>611</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>611</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid;
+font: 12pt &quot;Linux Libertine Display G&quot;;
+border-color: qlineargradient(spread:pad, x1:0.074, y1:0.13, x2:1, y2:1, stop:0.0965909 rgba(0, 0, 0, 173), stop:0.352273 rgba(93, 93, 93, 232), stop:0.642045 rgba(214, 185, 235, 182), stop:0.977273 rgba(255, 255, 255, 173));
+background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectItems</enum>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="horizontalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="flow">
+      <enum>QListView::TopToBottom</enum>
+     </property>
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <property name="viewMode">
+      <enum>QListView::ListMode</enum>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>420</y>
+       <width>541</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid;
+border-color: qlineargradient(spread:pad, x1:0.074, y1:0.13, x2:1, y2:1, stop:0.0965909 rgba(0, 0, 0, 173), stop:0.352273 rgba(93, 93, 93, 232), stop:0.642045 rgba(214, 185, 235, 182), stop:0.977273 rgba(255, 255, 255, 173));
+background-color: qradialgradient(spread:pad, cx:0.512, cy:0.573364, radius:1.045, fx:1, fy:1, stop:0 rgba(162, 155, 162, 0), stop:1 rgba(255, 255, 255, 255));
+background-image: none;
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>420</y>
+       <width>71</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));
+background-image: url(:/images/send.PNG);
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/images/send.png</normaloff>:/images/send.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>58</width>
+       <height>58</height>
+      </size>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QListWidget" name="listWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>611</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 0), stop:0.373991 rgba(33, 30, 255, 0), stop:0.624043 rgba(255, 0, 0, 0), stop:1 rgba(255, 0, 0, 0));</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>10</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/images/out.png</normaloff>:/images/out.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>60</y>
+       <width>511</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add friend...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="whatsThis">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Add friend...&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid;
+border-color: qlineargradient(spread:pad, x1:0.074, y1:0.13, x2:1, y2:1, stop:0.0965909 rgba(0, 0, 0, 173), stop:0.352273 rgba(93, 93, 93, 232), stop:0.642045 rgba(214, 185, 235, 182), stop:0.977273 rgba(255, 255, 255, 173));
+background-color: qradialgradient(spread:pad, cx:0.512, cy:0.573364, radius:1.045, fx:1, fy:1, stop:0 rgba(162, 155, 162, 0), stop:1 rgba(255, 255, 255, 255));
+background-image: none;
+font: 12pt &quot;Linux Libertine Display G&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>Add to group...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>20</y>
+       <width>21</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/images/out.png</normaloff>:/images/out.png</iconset>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
